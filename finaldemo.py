@@ -14,7 +14,7 @@ import datetime
 load_dotenv()
 
 st.set_page_config(
-    page_title="StreamFoward | Reflective Log",
+    page_title="StreamForward | Reflective Log",
     layout="wide"
 )
 
@@ -283,7 +283,7 @@ avg_data = df.mean(numeric_only=True)
 
 st.markdown("""
 <div class="main-header">
-    <h1>StreamFoward</h1>
+    <h1>StreamForward</h1>
     <p>Moving towards a balanced mind, one day at a time.</p>
 </div>
 """, unsafe_allow_html=True)
